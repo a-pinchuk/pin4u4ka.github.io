@@ -27,6 +27,14 @@ html, body{
     line-height: 1;
 }
 
+
+.tagline {
+    width: auto;
+    margin: 241px auto 0;
+    text-align: center;
+}
+
+
 .header {
     background: url(img/BG.jpg) no-repeat 0 0;
     height: 745px;
@@ -62,6 +70,18 @@ html, body{
 
 
 .main-menu-sort li:nth-child(1){
+    margin-left: 18px;
+}
+.main-menu-sort li:nth-child(2){
+    margin-left: -8px;
+}
+.main-menu-sort li:nth-child(3){
+    margin-left: 21px;
+}
+.main-menu-sort li:nth-child(4){
+    margin-left: 20px;
+}
+.main-menu-sort li:nth-child(5){
     margin-left: 4px;
 }
 
@@ -100,19 +120,25 @@ html, body{
     flex-direction: column;
 }
 
+.title {
+    width: auto;
+    margin: 241px auto 0;
+    text-align: center;
+}
+
 .main-title {
-    font-size: 36px;
-    font-weight: 600;
-    margin-top: 115px;
-    margin-left: 16px;
+    font-size: 35px;
+    margin: 29px -2px 3px 13px;
     text-transform: uppercase;
+    letter-spacing: 0.15em;
 }
 
 .subheader {
-    font-weight: 300;
-    letter-spacing: 1.4px;
-    margin-right: 9px;
-    margin-top: 48px;
+    font-size: 16px;
+    margin: 0.8em 0 1.65em;
+    letter-spacing: .15em;
+    font-weight: 500;
+    margin-left: 3px;
 }
 
 .btn{
@@ -126,22 +152,23 @@ html, body{
     background-color: #000;
 }
 
-.btn-success{
-    border-radius: 3px;
+.btn-success {
+    border-radius: 0px;
     background-color: #16a085;
     color: #fff;
+    height: 48px;
     width: 166px;
     font-size: 12px;
     font-weight: 700;
-    padding: 16px 0;
+    padding: 17px 0px;
     letter-spacing: 2px;
-    margin-left: -4px;
+    margin-left: 0px;
 }
 
-.icons{
+.icons {
     position: absolute;
-    bottom: 27px;
-    left: 45.8%;
+    bottom: -2px;
+    left: 43.2%;
 }
 
 .icons > li{
@@ -192,8 +219,9 @@ html, body{
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2.7px;
-    line-height: 1.15;
-    margin-top: 2px;
+    line-height: 1.18;
+    margin-top: 1px;
+    margin-left: 1px;
 }
 
 .photo-header{
@@ -202,13 +230,14 @@ html, body{
     margin-bottom: 40px;
 }
 
-.section-descr{
+.section-descr {
     color: #373737;
     font-size: 12px;
     font-weight: 300;
-    line-height: 2;
-    letter-spacing: 1.8px;
+    line-height: 1.99;
+    letter-spacing: 1.82px;
 }
+
 .photo-descr{
     width: 463px;
 }
@@ -219,10 +248,10 @@ html, body{
 }
 
 .btn-photo--mod {
-    width: 193px;
-    padding: 18px 0px 16px 3px;
-    letter-spacing: 2.15px;
-    margin-top: 28px;
+    width: 194px;
+    padding: 20px 0px 31px 2px;
+    letter-spacing: 1.7px;
+    margin-top: 31px;
     margin-left: 0px;
 }
 
@@ -249,10 +278,11 @@ html, body{
 }
 
 .btn-design--mod {
-    margin-top: 22px;
-    padding: 18px 0px 18px 0px;
+    margin-top: 23px;
+    padding: 14px 4px 14px 1px;
     width: 192px;
-    letter-spacing: 2.2px;
+    height: 51px;
+    letter-spacing: 2.1px;
     margin-left: 0px;
 }
 
@@ -293,7 +323,7 @@ html, body{
     width: 182px;
     text-align: center;
     margin-right: 78px;
-    margin-top: 43px;
+    margin-top: 44px;
     padding-left: 62px;
 }
 
@@ -315,10 +345,10 @@ html, body{
     letter-spacing: 1.5px;
 }
 
-.community-slider-pagination{
+.community-slider-pagination {
     position: absolute;
-    right: 64px;
-    top: 88px;
+    right: 63px;
+    top: 90px;
 }
 
 .community-slider__img1{
@@ -343,19 +373,25 @@ html, body{
 
 .subscribtion-header {
     color: #ffffff;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 30px;
-    margin-top: 25px;
-    letter-spacing: 3.5px;
+    margin-bottom: 54px;
+    margin-top: -9px;
+    letter-spacing: 4px;
     margin-left: 7px;
+}
+
+.subscribe__panel {
+    margin-top: 31px;
+    margin-left: -3px;
 }
 
 .subscription-form {
     font-size: 0;
-    margin-left: -3px;
-    margin-top: 1px;
+    position: absolute;
+    bottom: 326px;
+    margin-left: -1px;
 }
 
 .subscription-form input{
@@ -366,16 +402,16 @@ html, body{
     background-color: #ffffff;
     outline: none;
     border: none;
+    letter-spacing: 0.4px;
 }
 
-input[placeholder]{
-    font-family: "GothamRounded";
+input[placeholder] {
     color: #373737;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 16.1px;
+    font-weight: 300;
     text-transform: uppercase;
-    padding-left: 22px;
-    letter-spacing: 2.3px;
+    padding-left: 20px;
+    letter-spacing: 1.1px;
 }
 
 button[type="submit"]{
@@ -413,55 +449,60 @@ button[type="submit"]:before{
     align-items: center;
 }
 
-.download-content{
-    width: 846px;
+.download-content {
+    width: 897px;
     text-transform: uppercase;
-    margin-top: -38px;
+    margin-top: -88px;
 }
 
-.download-header{
-    font-family: "GothamRounded";
+.download-header {
     color: #373737;
     font-size: 20px;
     font-weight: 700;
     text-align: center;
     letter-spacing: 3px;
     line-height: 2;
-    margin-left: 40px;
+    margin-left: 38px;
+    margin-top: -75px;
+    padding-top: ;
 }
 
-.download-descr{
-    font-family: "GothamRounded";
+.download-descr {
+    /* font-family: "GothamRounded"; */
     color: #373737;
+    position: absolute;
+    bottom: 202px;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 300;
     text-align: center;
     letter-spacing: 1.8px;
-    width: 843px;
+    width: 887px;
     line-height: 1.9;
-    margin-bottom: 41px;
-    margin-left: 2px;
+    /* margin-bottom: 41px; */
+    margin-left: 5px;
 }
 
-.buttons-container{
+.buttons-container {
     display: flex;
     justify-content: center;
     font-family: "GothamRounded";
+    position: absolute;
+    bottom: 121px;
+    /* margin-top: 11px; */
+    margin-left: 125px;
 }
 
 .btn-apple, .btn-android {
-    border-bottom-right-radius: 27px;
-    border-top-right-radius: 3px;
     background-color: #1abc9c;
     width: 295px;
-    margin: 1px 15px;
+    height: 58px;
+    margin: -7px 14px;
     text-align: left;
     position: relative;
-    padding: 21px 9px 19px 25px;
-    font-weight: 700;
-    font-family: "GothamRounded";
+    padding: 13px 0px 12px 26px;
+    font-weight: 600;
     font-size: 16px;
-    letter-spacing: 2.4px;
+    letter-spacing: 2.5px;
 }
 
 .btn-android{
@@ -506,8 +547,11 @@ button[type="submit"]:before{
     margin-top: -15px;
 }
 
-.nav-list{
-    line-height: 58px;
+.nav-list {
+    line-height: 40px;
+    position: absolute;
+    bottom: 45px;
+    margin-left: -40px;
 }
 
 .nav-list > li{
@@ -536,12 +580,13 @@ button[type="submit"]:before{
     content: '';
 }
 
-.copyright-text{
+.copyright-text {
     color: #373737;
     font-size: 14px;
     font-weight: 700;
     text-align: left;
     letter-spacing: 2.1px;
+    margin-top: 73px;
 }
 
 .footer-logo__img{
